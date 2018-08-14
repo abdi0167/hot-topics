@@ -3,7 +3,7 @@ const container = document.querySelector('.container');
 const tag = document.querySelector('.tagline h1');
 const img = document.querySelector('.header-img')
 const links = document.querySelectorAll('nav a');
-let url = '../partials/articles.html';
+let url = './partials/articles.html';
 
 // CREATE THE FUNCTION THAT WILL LOAD THE REQUESTED PARTIAL
 
@@ -16,7 +16,7 @@ const loadContent = (event) => {
 
     if (t === "Portfolio") {
         let tagline = "Welcome to the portfilio.";
-        let url = '../partials/portfolio.html';
+        let url = './partials/portfolio.html';
 
         //Default load Articles
         fetch(url).then(function (response) {
