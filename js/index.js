@@ -86,7 +86,7 @@ const selectContent = () => {
 
             container.innerHTML = data;
             tag.innerHTML = tagline;
-            document.getElementById('bg').style.backgroundImage = "url('../img/papers.jpg')";
+            document.getElementById('bg').style.backgroundImage = "url('./img/papers.jpg')";
 
         })
         // Error will hokd anything the goes wrong in the process
